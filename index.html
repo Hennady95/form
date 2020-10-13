@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
     <form>
-        <p>Enter cellphone:</p>
-        <input type="text" name="cellphone">
-        <p>Enter Email:</p>
-        <input type="text" name="email">
-        <p>Enter password</p>
-        <input type="password" name="password" >
+        <label>Enter cellphone: <input type="text" name="cellphone"></label>
+        <br>
+        <br>
+        <label>Enter Email: <input type="text" name="email"></label>
+        <br>
+        <br>
+        <label>Enter password: <input type="password" name="password" > </label>
         <p>Funny questions:</p>
         <p>You happy?))</p>
         <p><input type="radio" name="answer_1"  value="yes">YES</p>
@@ -19,7 +20,9 @@
         <p>This form is the best?</p>
         <p><input type="radio" name="answer_2" value="yes">YES</p>
         <p><input type="radio" name="answer_2" value="of_course">OF CORSE!!!</p>
-        <textarea name="Comments" cols="60" rows="10">Enter your text</textarea>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea name="Comments" cols="60" rows="10" id="comments">Enter your text</textarea>
         <br>
         <button type="submit">Send Form</button>
         <button type="reset">Reset Form</button>
